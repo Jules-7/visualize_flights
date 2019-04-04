@@ -781,9 +781,9 @@ class DisplayFlownTrack:
         self.ax.plot(x_route, y_route, color='black', marker='.',
                      markersize=12, label="route")  # route
         self.ax.plot(x_within, y_within, color='green', marker='.',
-                     markersize=9, label="within MUAC")  # flown trajectory within MUAC
+                     markersize=9, label="above FL245")  # flown trajectory within MUAC/above FL245
         self.ax.plot(x_below, y_below, color='orange', marker='.',
-                     markersize=9, label="below MUAC")  # flown trajectory below MUAC
+                     markersize=9, label="below FL245")  # flown trajectory below MUAC/FL245
         self.ax.plot(x_correlation, y_correlation, color='red', marker='.',
                      markersize=10, label="correlation")  # track correlation point
         self.ax.plot(x_under_control[0], y_under_control[0], color='blue', marker='.',
